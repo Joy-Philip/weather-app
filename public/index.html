@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <form class="container" action="/post" method="post">
+        <div class="search">
+            <input type="text" placeholder="    Enter City Name" id="searchBar">
+            <button id="btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" color="#000000" fill="none">
+                    <path d="M17.5 17.5L22 22" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M20 11C20 6.02944 15.9706 2 11 2C6.02944 2 2 6.02944 2 11C2 15.9706 6.02944 20 11 20C15.9706 20 20 15.9706 20 11Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" />
+                </svg>
+            </button>
+        </div>
+        <div class="weather">
+            <div class="weather-img">
+                <img id="sunny" src="images/1530392_weather_sun_sunny_temperature_icon.png" alt="">
+            </div>
+            <div class="text">
+
+                <h1 class="temp">25 &#8451</h1>
+                <h2 class="city">San Fransisco</h2>
+            </div>
+        </div>
+        <div class="other-details">
+            <div class="humidity">
+                <img id="humid" src="images/2682807_drop_high_humidity_percentage_precipitation_icon.png" alt="">
+                <div class="humid-text">
+
+                    <h3 class="humidityyy">50%</h3>
+                    <h4>Humidity</h4>
+                </div>
+            </div>
+            <div class="wind">
+                <img id="windy" src="images/316018_cloud_wind_icon.png" alt="">
+                <div class="wind-text">
+
+                    <h3 class="windSpeed">50 km/hr</h3>
+                    <h4>Wind Speed</h4>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
